@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    background-image: url("hatter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#leiras{
+	background-image: url('keret.png');
+	width: 880px;
+	margin-top: 50px;
+  padding: 35px;
+	
+}
+
+h1, h2{
+	color: grey;
+	font-variant: small-caps;
+	text-shadow: 1px 1px rgb(195, 180, 180);
+}
+
+p{
+  text-indent: 35px;
+  text-align: justify;
+  letter-spacing: -0.1px;
+  line-height: 150%;
+}
+
+.kepkeret {
+  width: 375px;
+  float: right;
+  text-align: center;
+  font-size: 75%;
+  padding: 0px 5px 5px;
+  margin-left: 10px;
+  background-image: url('keret.png');
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px yellow;  
+  font-style: italic;
+  border: 2px dimgray;
+}
+
+.kepkeret img{
+	width: 385px;
+	position: relative;
+	left: -5px;
+}
+
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul{
+  line-height: 1.5;
+  margin-bottom: 25px; 
+}
