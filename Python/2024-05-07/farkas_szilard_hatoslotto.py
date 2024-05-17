@@ -37,18 +37,16 @@ while temp < 6:
 
 random_lista.sort()
 
-correct_lista = 0
+correct_lista = []
 
 for i in uj_lista:
     for h in random_lista:
         if i == h:
-            correct_lista = correct_lista + 1
+            correct_lista.append(i)
             break
 
 
-print("\n")
-print("Talált számok: " + str(correct_lista))
-print("\n")
-print("Ön által megadott: " + str(uj_lista))
+print("\nTalált számok: " + str(correct_lista))
+print("\nÖn által megadott: " + str(uj_lista))
 print("Gépi lista: " + str(random_lista))
 

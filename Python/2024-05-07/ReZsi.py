@@ -1,4 +1,2 @@
-file = open("athaladasok.txt", "r")
-
-for line in file:
-    print(line)
+# Hiányzik az athaladasok.txt
+# A feladat így nem teljesíthető
