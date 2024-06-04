@@ -59,14 +59,55 @@ ul{
   margin-bottom: 25px; 
 }
 
+.navbar {
+  background-color: #252525;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: greenyellow;
+  text-align: center;
+  padding: 14px 46px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.vege {
+  float: right;
+  background-color: #008332;
+  color: white;
+}
+
+@media screen and (max-width: 920px) {
+  .navbar a {
+    padding: 4px 12px;
+  }
+}
+
 @media screen and (max-width: 720px) {
+
+  .navbar a {
+    padding: 4px 12px;
+  }
+
+  * {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
   h1, h2 {
     text-align: center;
+    font-size: 36px;
   }
 
   .kepkeret {
-    width: 300px;
+    width: 280px;
     font-size: 70%;
     margin-left: 0%;
   }
