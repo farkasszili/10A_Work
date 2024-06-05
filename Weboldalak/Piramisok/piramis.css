@@ -40,6 +40,8 @@ p{
   box-shadow: 10px 10px 10px yellow;  
   font-style: italic;
   border: 2px dimgray;
+  position: relative;
+  left: -1%;
 }
 
 .kepkeret img{
@@ -66,21 +68,22 @@ ul{
 
 .navbar a {
   float: left;
-  color: greenyellow;
+  color: rgb(255, 255, 0);
   text-align: center;
   padding: 14px 46px;
   text-decoration: none;
   font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #a7cc02;
   color: black;
 }
 
 .navbar a.vege {
   float: right;
-  background-color: #008332;
+  background-color: #6f7700;
   color: white;
 }
 
@@ -110,6 +113,7 @@ ul{
     width: 280px;
     font-size: 70%;
     margin-left: 0%;
+    left: -5%;
   }
 
   .kepkeret img {
